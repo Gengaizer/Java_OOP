@@ -15,7 +15,7 @@ public class Book<B> {
 
     @Override
     public String toString() {
-        return book + ", Под номером " + numbering;
+        return "Книга: " + book + ", № " + numbering;
     }
 
     public Integer getNumbering() {
