@@ -6,6 +6,7 @@ public class Main {
 
         library.addProd();
         library.addProd();
+        library.addProd();
 
         Book<String> book1 = new Book<>("War and Peace", 234);
         Book<String> book2 = new Book<>("Master and Margarita", 534);
