@@ -18,6 +18,6 @@ public class Main {
         data.create(new Teacher("Teach1", 32, List.of("math", "phisics", "astronomy")));
         data.create(new Teacher("Teach3", 32, List.of("informatics", "astronomy")));
 
-        data.id(2);
+        data.id(1);
     }
 }
