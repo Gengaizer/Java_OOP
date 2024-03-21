@@ -29,7 +29,7 @@ public class Presenter {
         calc.setVarImaginaryOne(varImaginaryFirst);
         calc.setVarImaginaryTwo(varImaginaryTwo);
         String res = calc.result();
-        viev.print(res, "result");
+        // viev.print(res, "result");
         fl.log(res);
 
     }

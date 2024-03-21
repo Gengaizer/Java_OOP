@@ -10,6 +10,11 @@ public class Division extends Calculat {
 
         double newImaginary = (varImaginary * varRealOther - varReal * varImaginaryOther) / denominator;
 
-        return String.format("%.1f + %.1fi", newReal, newImaginary);
+        if (newImaginary >= 0) {
+            return String.format("%.1f + %.1f i", newReal, newImaginary);
+
+        }
+
+        return String.format("%.1f -  %.1f i", newReal, newImaginary);
     }
 }

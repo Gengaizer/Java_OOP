@@ -1,4 +1,0 @@
-мар. 18, 2024 7:37:55 PM A.FileLogger log
-INFO: -10,0 + 10,0i
-мар. 18, 2024 7:45:30 PM FinalTuskOop.model.FileLogger log
-INFO: 0,7 + 0,1i

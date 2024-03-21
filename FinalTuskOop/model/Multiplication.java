@@ -7,6 +7,11 @@ public class Multiplication extends Calculat {
 
         double newImaginary = varReal * varImaginaryOther + varImaginary * varRealOther;
 
-        return String.format("%.1f + %.1fi", newReal, newImaginary);
+        if (newImaginary >= 0) {
+            return String.format("%.1f + %.1f i", newReal, newImaginary);
+
+        }
+
+        return String.format("%.1f -  %.1f i", newReal, newImaginary);
     }
 }
