@@ -1,6 +1,8 @@
 package semenar_6.Tusk3;
 //В данном случае, нарушается LSP, так как наследующий класс Ostrich изменяет ожидаемое поведение метода fly() базового класса Bird.
 
+import java.util.ArrayList;
+
 class Bird {
     public void fly() {
         // Реализация полета птицы
@@ -36,5 +38,5 @@ class Worker {
 }
 
 class Engineer extends Worker {
-
+    Int[] arr = new int[10];
 }

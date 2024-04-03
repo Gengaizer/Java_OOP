@@ -32,4 +32,15 @@ public class Calculat implements Variable {
         return varImaginaryOther;
     }
 
+    public static void main(String[] args) {
+        String dob = "01.01.0101";
+        dob = dob.replace(".", "");
+
+        String regex = "\\D+";
+
+        System.out.println(dob.matches(regex));
+        System.out.println("fre".matches(regex));
+        System.out.println("123456789".matches(regex));
+
+    }
 }
